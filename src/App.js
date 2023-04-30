@@ -1,9 +1,14 @@
 import './App.css';
+import { EXXX, Exx } from './Exercise/EX22';
 import Home from './Home/Home';
 
 function App() {
   return (
-   <Home/>
+    <div>
+<EXXX/>
+<Exx/>
+    </div>
+   
   );
 }
 
