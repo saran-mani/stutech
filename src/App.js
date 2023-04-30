@@ -1,24 +1,20 @@
 import './App.css';
-import { Ex1, Ex2,Ex3,Ex4, Excercise } from './Exercise/Excercise';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Home/Home';
-import { SelectYear, Sem } from './components/ComponentItem';
+import { FirstYearSem } from './components/SelectSem/1stYear';
 
 function App() {
   return (
     <div>
-      <SelectYear/>,
-      <Sem/>
-      {/* <Router>
-     
+      <Router>
         <Routes>
         <Route path="/" element={<Home />} />
-          <Route path="/ex1" element={<Ex1 />} />
-          <Route path="/ex2" element={<Ex2 />} />
-          <Route path="/ex3" element={<Ex3 />} />
-          <Route path="/ex4" element={<Ex4 />} />
+          <Route path="/first-year" element={ <FirstYearSem/>} />
+          <Route path="/second-year" element={<FirstYearSem/>} />
+          <Route path="/third-year" element={<FirstYearSem/>} />
+          <Route path="/fourth-year" element={<FirstYearSem/>} />
         </Routes>
-    </Router> */}
+    </Router>
     </div>
    
   );

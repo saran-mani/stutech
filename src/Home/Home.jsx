@@ -1,11 +1,11 @@
 import { Component } from "react";
-import { Excercise } from "../Exercise/Excercise";
+import {  SelectYear } from "../Year/year";
 class Home extends Component {
     state = {  } 
     render() { 
         return (
             <>
-               <Excercise/>
+              <SelectYear/>
             </>
         );
     }
