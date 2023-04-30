@@ -1,12 +1,11 @@
 import { Component } from "react";
+import { Excercise } from "../Exercise/Excercise";
 class Home extends Component {
     state = {  } 
     render() { 
         return (
             <>
-            <div>
-                <h1>AI & ML Exercise</h1>
-            </div>
+               <Excercise/>
             </>
         );
     }

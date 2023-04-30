@@ -1,0 +1,22 @@
+.container ul{
+    padding: 0;
+    width: 60%;
+}
+.container ul li,a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+}
+.container ul li{
+    padding: 10px;
+    border-radius: 3px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin-bottom: 20px;
+}
+.container{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
