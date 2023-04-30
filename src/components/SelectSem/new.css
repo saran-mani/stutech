@@ -1,0 +1,9 @@
+.codee{
+    width: 90%;
+    margin: auto;
+    
+}
+.codee :nth-child(1){
+    border-radius: 5px;
+    font-size: 15px;
+}
